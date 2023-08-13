@@ -9,10 +9,6 @@ document.write(`
               <a class="nav-link active" aria-current="page" id="anchor_menu_index" href="#">
                   <i class="fa fa-home fa-fw"></i>Головна сторінка</a>
           </li>
-          <li class="nav-item" style="margin-right: 1vw;">
-              <a class="nav-link active" aria-current="page" id="anchor_menu_map" href="#">
-                  <i class="fa fa-home fa-fw"></i>Карта сайту</a>
-          </li>
           <li class="nav-item dropdown" id="myDropdown_about">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
                   Наша візитка
