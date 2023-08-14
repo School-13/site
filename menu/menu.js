@@ -20,32 +20,24 @@ document.write(`
           </li>
           <li class="nav-item dropdown" id="myDropdown_school_control">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                  Управління школою
+                  Управління<br>закладом освіти
               </a>
               <ul class="dropdown-menu" aria-labelledby="myDropdown_school_control">
                   <li><a class="dropdown-item" id="anchor_menu_school_control_1" href="#">Нормативно-правова база</a></li>
                   <li><a class="dropdown-item" id="anchor_menu_school_control_2" href="#">Схема управління навчальним закладом</a></li>
-                  <li><a class="dropdown-item" id="anchor_menu_school_control_3" href="#">До нового 2022-2023 навчального року</a></li>
-                  <li><a class="dropdown-item" href="#">Документи школи &raquo;</a>
-                      <ul class="submenu dropdown-menu">
-                          <li><a class="dropdown-item" id="anchor_menu_school_control_4_1" href="#">Документи школи</a></li>
-                          <li><a class="dropdown-item" id="anchor_menu_school_control_4_2" href="#">Положення  про моніторинг якості освіти та освітньої діяльності</a></li>
-                      </ul>
-                  </li>
-                  <li><a class="dropdown-item" id="anchor_menu_school_control_5" href="#">Державно-громадське управління  СЗШ №13</a></li>
-                  <li><a class="dropdown-item" id="anchor_menu_school_control_6" href="#">Батьківський комітет</a></li>
-                  <li><a class="dropdown-item" id="anchor_menu_school_control_7" href="#">Матеріально-технічне забезпечення</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_school_control_3" href="#">До нового 2023-2024 навчального року</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_school_control_4" href="#">Документи закладу освіти</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_school_control_5" href="#">Матеріально-технічне забезпечення</a></li>
               </ul>
           </li>
           <li class="nav-item dropdown" id="myDropdown_open_info">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                  Інформаційна відкритість закладу
+                  Інформаційна<br>відкритість закладу
               </a>
               <ul class="dropdown-menu" aria-labelledby="myDropdown_open_info">
-                  <li><a class="dropdown-item" id="anchor_menu_open_info_1" href="#">Документи школи</a></li>
-                  <li><a class="dropdown-item" id="anchor_menu_open_info_2" href="#">Звіт керівника</a></li>
-                  <li><a class="dropdown-item" id="anchor_menu_open_info_3" href="#">Кошторис навчального закладу</a></li>
-                  <li><a class="dropdown-item" id="anchor_menu_open_info_4" href="#">Фінансовий звіт</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_open_info_1" href="#">Звіт керівника</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_open_info_2" href="#">Кошторис навчального закладу</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_open_info_3" href="#">Фінансовий звіт</a></li>
               </ul>
           </li>
           <li class="nav-item dropdown" id="myDropdown_educational_activity">
@@ -53,49 +45,38 @@ document.write(`
                   Освітня діяльність
               </a>
               <ul class="dropdown-menu" aria-labelledby="myDropdown_educational_activity">
-                  <li><a class="dropdown-item" id="anchor_menu_educational_activity_1" href="#">Шкільні підручники</a></li>
-                  <li><a class="dropdown-item" id="anchor_menu_educational_activity_2" href="#">Замовлення підручників</a></li>
-                  <li><a class="dropdown-item" id="anchor_menu_educational_activity_3" href="#">Моніторинг якості освіти</a></li>
-                  <li><a class="dropdown-item" id="anchor_menu_educational_activity_4" href="#">Мережа класів та учнів на 2022-2023 н.р.</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_educational_activity_1" href="#">Мова навчання - українська</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_educational_activity_2" href="#">Мережа класів та учнів на 2023-2024 н.р.</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_educational_activity_3" href="#">Розклад уроків</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_educational_activity_4" href="#">Шкільні підручники</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_educational_activity_5" href="#">Моніторінг якості освіти</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_educational_activity_6" href="#">Дистанційне навчання</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_educational_activity_7" href="#">Наша платформа</a></li>
               </ul>
           </li>
-          <li class="nav-item dropdown" id="myDropdown_distance_learning">
+          <li class="nav-item dropdown" id="myDropdown_SPS">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                  Дистанційне навчання
+                  Соціально-<br>психологічна служба
               </a>
-              <ul class="dropdown-menu" aria-labelledby="myDropdown_distance_learning">
-                  <li><a class="dropdown-item" id="anchor_menu_distance_learning_1" href="#">Наша платформа</a></li>
-                  <li><a class="dropdown-item" id="anchor_menu_distance_learning_2" href="#">Правила роботи та взаємодії</a></li>
+              <ul class="dropdown-menu" aria-labelledby="myDropdown_SPS">
+                  <li><a class="dropdown-item" id="anchor_menu_SPS_1" href="#">Поради психолога</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_SPS_2" href="#">Поради соціального педагога</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_SPS_3" href="#">Протидія булінгу</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_SPS_4" href="#">Твої права та безпека</a></li>
               </ul>
           </li>
-          <li class="nav-item dropdown" id="myDropdown_additionally">
+          <li class="nav-item dropdown" id="myDropdown_VR">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                  Додатково
+                  Виховна робота
               </a>
-              <ul class="dropdown-menu" aria-labelledby="myDropdown_additionally">
-                  <li><a class="dropdown-item" id="anchor_menu_additionally_1" href="#">Харчування учнів</a></li>
-                  <li><a class="dropdown-item" id="anchor_menu_additionally_2" href="#">Цифрова грамотність</a></li>
-                  <li><a class="dropdown-item" id="anchor_menu_additionally_3" href="#">Твої права і безпека</a></li>
-                  <li><a class="dropdown-item" href="#">ВИХОВНА РОБОТА &raquo;</a>
-                      <ul class="submenu dropdown-menu">
-                          <li><a class="dropdown-item" id="anchor_menu_additionally_4_1" href="#">ВИХОВНА РОБОТА</a></li>
-                          <li><a class="dropdown-item" id="anchor_menu_additionally_4_2" href="#">ДІЯЛЬНІСТЬ</a></li>
-                          <li><a class="dropdown-item" id="anchor_menu_additionally_4_3" href="#">НАГОРОДИ</a></li>
-                          <li><a class="dropdown-item" id="anchor_menu_additionally_4_4" href="#">Всеукраїнська дитячо-юнацька <br>
-                              військово-патріотична гра</a></li>
-                      </ul>
-                  </li>
-                  <li><a class="dropdown-item" id="anchor_menu_additionally_5" href="#">Протидія булінгу</a></li>
-                  <li><a class="dropdown-item" id="anchor_menu_additionally_6" href="#">Для батьків</a></li>
-                  <li><a class="dropdown-item" href="#">Соціально-психологічна служба &raquo;</a>
-                      <ul class="submenu dropdown-menu">
-                          <li><a class="dropdown-item" id="anchor_menu_additionally_7_1" href="#">Соціально-психологічна <br>
-                              служба</a></li>
-                          <li><a class="dropdown-item" id="anchor_menu_additionally_7_2" href="#">Поради психолога</a></li>
-                          <li><a class="dropdown-item" id="anchor_menu_additionally_7_3" href="#">Поради соціального педагога</a></li>
-                      </ul>
-                  </li>
+              <ul class="dropdown-menu" aria-labelledby="myDropdown_VR">
+                  <li><a class="dropdown-item" id="anchor_menu_VR_1" href="#">Закони шкільного життя</a></li>
+                  <li><a class="dropdown-item" id="anchor_menu_VR_2" href="#">Твоє здоров'я</a></li>
               </ul>
+          </li>
+          <li class="nav-item" style="margin-right: 1vw;">
+              <a class="nav-link active" aria-current="page" id="anchor_menu_parents" href="#">
+                  <i class="fa fa-home fa-fw"></i>Для батьків</a>
           </li>
       </ul>
   </div>
